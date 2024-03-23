@@ -17,7 +17,9 @@ My Neovim Configuration
 ```
 ~/.config/nvim
 ├── lua/
-│   ├── vim_options.lua
+│   ├── core/
+│   │   ├── keymaps.lua
+│   │   ├── options.lua
 │   ├── plugins.lua
 │   └── plugins/
 │       ├── catpuccin.lua
