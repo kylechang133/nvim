@@ -1,4 +1,4 @@
-# Neovim_Config
+# nvim
 My Neovim Configuration
 
 ## Features/Plugins
