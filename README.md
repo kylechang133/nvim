@@ -36,9 +36,9 @@ My Neovim Configuration
 ```
 
 ## Installation Instructions
-1. Install Neovim using the package manager of your choice (I use homebrew on MacOS)
+1. Install [Neovim](https://neovim.io) using the package manager of your choice (I use [Homebrew](https://brew.sh) on MacOS)
 2. cd into the .config directory
 3. Remove the pre-existing `nvim` directory
 4. Clone this repository
-5. ***NOTE:*** This Neovim configuration has the GitHub Copilot plugin installed; if you want to use it, make sure you have node.js installed on your machine. Otherwise, remove the plugin from the `completion.lua` file.
-6. ***NOTE:*** This Neovim configuration also has the [Catpuccin](https://github.com/catppuccin/catppuccin) Color Theme installed; in order to get the color theme to work properly, you need to have a terminal emulator that has full color support installed (I recommend Kitty(MacOS/Linux) or iTerm2(MacOS))
+5. ***NOTE:*** This Neovim configuration has the [GitHub Copilot](https://github.com/github/copilot.vim) plugin installed; if you want to use it, make sure you have [node.js](https://nodejs.org/en) installed on your machine. Otherwise, remove the plugin from the `completion.lua` file.
+6. ***NOTE:*** This Neovim configuration also has the [Catpuccin](https://github.com/catppuccin/catppuccin) Color Theme installed; in order to get the color theme to work properly, you need to have a terminal emulator that has full color support installed (I recommend [Kitty](https://sw.kovidgoyal.net/kitty/)(MacOS/Linux) or [iTerm2](https://iterm2.com)(MacOS))
