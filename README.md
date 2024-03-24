@@ -35,7 +35,7 @@ My Neovim Configuration
 └── init.lua
 ```
 
-## Instalation Instructions
+## Installation Instructions
 1. Install Neovim using the package manager of your choice (I use homebrew on MacOS)
 2. cd into the .config directory
 3. Remove the pre-existing "nvim" directory
