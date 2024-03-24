@@ -1,5 +1,4 @@
-# nvim
-My Neovim Configuration
+# My Neovim Configuration
 
 ## Features/Plugins
 - Lazy.nvim Package Manager
