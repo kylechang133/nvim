@@ -6,8 +6,12 @@ return {
 
         null_ls.setup({
             sources = {
+                -- Lua Fmt
                 null_ls.builtins.formatting.stylua,
-                null_ls.builtins.formatting.autopep8,
+
+                -- Python Fmt
+                null_ls.builtins.formatting.black,
+                null_ls.builtins.formatting.isort,
             },
         })
 
