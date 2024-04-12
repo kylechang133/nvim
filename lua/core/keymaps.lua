@@ -5,8 +5,8 @@ vim.g.mapleader = " "
 vim.cmd("set hlsearch")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
--- Window Navigation
-vim.keymap.set("n", "<C-h>", "<C-w><C-h>", {})
-vim.keymap.set("n", "<C-l>", "<C-w><C-l>", {})
-vim.keymap.set("n", "<C-j>", "<C-w><C-j>", {})
-vim.keymap.set("n", "<C-k>", "<C-w><C-k>", {})
+-- Window Navigation + Tmux Navigation
+vim.keymap.set("n", "<C-h>", ":wincmd h<CR>", {})
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>", {})
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>", {})
+vim.keymap.set("n", "<C-l>", ":wincmd l<CR>", {})
