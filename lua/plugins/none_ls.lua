@@ -1,20 +1,23 @@
 -- Builtin Lint and Fmt
 return {
-    "nvimtools/none-ls.nvim",
-    config = function()
-        local null_ls = require("null-ls")
+	"nvimtools/none-ls.nvim",
+	config = function()
+		local null_ls = require("null-ls")
 
-        null_ls.setup({
-            sources = {
-                -- Lua Fmt
-                null_ls.builtins.formatting.stylua,
+		null_ls.setup({
+			sources = {
+				-- Lua Fmt
+				null_ls.builtins.formatting.stylua,
 
-                -- Python Fmt
-                null_ls.builtins.formatting.black,
-                null_ls.builtins.formatting.isort,
-            },
-        })
+				-- Python Fmt
+				null_ls.builtins.formatting.black,
+				null_ls.builtins.formatting.isort,
 
-        vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
-    end,
+				-- Javascript Fmt
+				null_ls.builtins.formatting.prettier,
+			},
+		})
+
+		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+	end,
 }
