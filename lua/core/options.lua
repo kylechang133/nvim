@@ -1,40 +1,43 @@
 -- Tab Settings
-vim.cmd("set tabstop=4")
-vim.cmd("set softtabstop=4")
-vim.cmd("set shiftwidth=4")
-vim.cmd("set expandtab")
-vim.cmd("set autoindent")
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.autoindent = true
 
 -- Line Numbers
-vim.cmd("set number")
-vim.cmd("set relativenumber")
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- Line Wrapping
-vim.cmd("set nowrap")
+vim.opt.wrap = false
 
 -- Highlight On Yank
-vim.cmd("au TextYankPost * lua vim.highlight.on_yank()")
+vim.api.nvim_create_autocmd("TextYankPost", {
+    callback = function()
+        vim.highlight.on_yank()
+    end,
+})
 
 -- Search Settings
-vim.cmd("set ignorecase")
-vim.cmd("set smartcase")
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 -- Appearance
-vim.cmd("set termguicolors")
+vim.opt.termguicolors = true
 
 -- Backspace
-vim.cmd("set backspace=indent,eol,start")
+vim.opt.backspace = { "indent", "eol", "start" }
 
 -- Clipboard
-vim.cmd("set clipboard=unnamedplus")
+vim.opt.clipboard = "unnamedplus"
 
 -- Sign Column
-vim.cmd("set signcolumn=yes")
+vim.opt.signcolumn = "yes"
 
 -- Decrease update time
-vim.cmd("set updatetime=250")
+vim.opt.updatetime = 250
 
 -- Terminal Split Direction
-vim.cmd("set splitright")
-vim.cmd("set splitbelow")
-
+vim.opt.splitright = true
+vim.opt.splitbelow = true
