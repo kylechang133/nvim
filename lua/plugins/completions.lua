@@ -1,19 +1,19 @@
 -- Autocomplete
 return {
-	--  {
+	--  { -- copilot.nvim
 	--      "github/copilot.vim",
 	--  },
-	{
+	{ -- cmp-nvim-lsp
 		"hrsh7th/cmp-nvim-lsp",
 	},
-	{
+	{ -- LuaSnip
 		"L3MON4D3/LuaSnip",
 		dependencies = {
 			"saadparwaiz1/cmp_luasnip",
 			"rafamadriz/friendly-snippets",
 		},
 	},
-	{
+	{ -- nvim-cmp
 		"hrsh7th/nvim-cmp",
 		config = function()
 			local cmp = require("cmp")

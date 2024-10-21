@@ -1,7 +1,5 @@
 return {
-
-	{
-		-- Neotree (file explorer)
+	{ -- neo-tree.nvim
 		"nvim-neo-tree/neo-tree.nvim",
 		branch = "v3.x",
 		dependencies = {
@@ -15,8 +13,7 @@ return {
 		end,
 	},
 
-	{
-		-- oil.nvim (file explorer)
+	{ -- oil.nvim 
 		"stevearc/oil.nvim",
 		config = function()
 			require("oil").setup({

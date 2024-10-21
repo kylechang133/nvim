@@ -1,13 +1,13 @@
 -- LSP Configuration
 return {
-    {
+    { -- mason.nvim
         "williamboman/mason.nvim",
         lazy = false,
         config = function()
             require("mason").setup()
         end,
     },
-    {
+    { -- mason-lspconfig.nvim
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
@@ -18,7 +18,7 @@ return {
             })
         end,
     },
-    {
+    { -- nvim-lspconfig
         "neovim/nvim-lspconfig",
         lazy = false,
         config = function()
