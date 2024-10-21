@@ -36,7 +36,7 @@
 │       ├── git.lua
 │       ├── lsp_config.lua
 │       ├── lualine.lua
-│       ├── neotree.lua
+│       ├── file_nav.lua
 │       ├── none_ls.lua
 │       ├── nvim_tmux_nav.lua
 │       ├── telescope.lua
