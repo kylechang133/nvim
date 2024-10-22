@@ -1,10 +1,6 @@
 -- Commentary Plugin
 return {
-    {
-        "numToStr/Comment.nvim",
-        config = function()
-            require("Comment").setup()
-        end,
-        lazy = false,
-    },
+	"numToStr/Comment.nvim",
+	lazy = false,
+	opts = {},
 }

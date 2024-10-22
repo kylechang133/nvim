@@ -3,9 +3,7 @@ return {
     { -- mason.nvim
         "williamboman/mason.nvim",
         lazy = false,
-        config = function()
-            require("mason").setup()
-        end,
+        opts = {},
     },
     { -- mason-lspconfig.nvim
         "williamboman/mason-lspconfig.nvim",
