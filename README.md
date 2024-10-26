@@ -2,7 +2,7 @@
 
 ## Plugins
 - [lazy.nvim](https://github.com/folke/lazy.nvim) (Plugin Package Manager)
-- [catpuccin](https://github.com/catppuccin/catppuccin) (Color Theme)
+- [catpuccin](https://github.com/catppuccin/nvim) (Color Theme)
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) (Comment Plugin)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) (Git Functionality)
 - [copilot.nvim](https://github.com/github/copilot.vim) (Github Copilot)
@@ -25,7 +25,7 @@
 ```
 ~/.config/nvim
 ├── lua/
-│   ├── core/
+│   ├── config/
 │   │   ├── keymaps.lua
 │   │   ├── options.lua
 │   ├── plugins.lua

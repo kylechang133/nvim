@@ -7,8 +7,8 @@ return {
 
         config = function()
             local builtin = require("telescope.builtin")
-            vim.keymap.set("n", "<leader>sf", builtin.find_files, {}) -- Telescope
-            vim.keymap.set("n", "<leader>sg", builtin.live_grep, {}) -- Grepper
+            vim.keymap.set("n", "<leader>ff", builtin.find_files, {}) -- Fuzzy Finder
+            vim.keymap.set("n", "<leader>fw", builtin.live_grep, {}) -- Grepper
         end,
     },
     {
@@ -25,3 +25,4 @@ return {
         end,
     },
 }
+
