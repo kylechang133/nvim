@@ -9,7 +9,7 @@
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (Fuzzy Finder)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Syntax Highligting)
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) (Vim/Tmux Nagivation Control)
-- [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) (File Tree)
+- [cutlass.nvim](https://github.com/gbprod/cutlass.nvim) (Override default vim cut & paste behaviour)
 - [oil.nvim](https://github.com/stevearc/oil.nvim) (Filesystem Editor)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) (Status Bar)
 - [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim) (Linter/Formatter Integration)
@@ -33,10 +33,11 @@
 │       ├── colorscheme.lua
 │       ├── comment.lua
 │       ├── completion.lua
+│       ├── cutlass.lua
 │       ├── git.lua
 │       ├── lsp_config.lua
 │       ├── lualine.lua
-│       ├── file_nav.lua
+│       ├── oil.lua
 │       ├── none_ls.lua
 │       ├── nvim_tmux_nav.lua
 │       ├── telescope.lua
