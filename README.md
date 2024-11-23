@@ -4,6 +4,7 @@
 - [lazy.nvim](https://github.com/folke/lazy.nvim) (Plugin Package Manager)
 - [catpuccin](https://github.com/catppuccin/nvim) (Color Theme)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) (Git Functionality)
+- [Comment.nvim](https://github.com/numToStr/Comment.nvim) (Comment Plugin)
 - [copilot.nvim](https://github.com/github/copilot.vim) (Github Copilot)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (Fuzzy Finder)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Syntax Highligting)
@@ -18,6 +19,7 @@
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) (LSP Autocompletion)
 - [cmp-nvim](https://github.com/hrsh7th/nvim-cmp) (Code Completion Engine)
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) (Code Snippet Engine)
+- [noice.nvim](https://github.com/folke/noice.nvim) (Aesthetic CL & Notifications)
 
 
 ## File Structure
@@ -30,12 +32,14 @@
 │   ├── plugins.lua
 │   └── plugins/
 │       ├── colorscheme.lua
+│       ├── comment.lua
 │       ├── completion.lua
 │       ├── cutlass.lua
 │       ├── git.lua
 │       ├── lsp_config.lua
 │       ├── lualine.lua
 │       ├── oil.lua
+│       ├── noice.lua
 │       ├── none_ls.lua
 │       ├── nvim_tmux_nav.lua
 │       ├── telescope.lua
