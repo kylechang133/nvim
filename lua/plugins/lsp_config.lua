@@ -30,8 +30,13 @@ return {
 				capabilities = capabilities,
 			})
 
+			-- C++ LSP
+			lspconfig.clangd.setup({
+				capabilities = capabilities,
+			})
+
 			-- Javascript LSP
-			lspconfig.eslint.setup({
+			lspconfig.ts_ls.setup({
 				capabilities = capabilities,
 			})
 

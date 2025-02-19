@@ -13,6 +13,9 @@ return {
                 null_ls.builtins.formatting.black,
                 null_ls.builtins.formatting.isort,
 
+                -- C++ Fmt
+                null_ls.builtins.formatting.clang_format,
+
                 -- Javascript Fmt
                 null_ls.builtins.formatting.prettier,
             },
