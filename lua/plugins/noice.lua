@@ -18,4 +18,9 @@ return {
 			lsp_doc_border = false,
 		},
 	},
+	dependencies = {
+		"MunifTanjim/nui.nvim",
+		"rcarriga/nvim-notify",
+	},
+    vim.keymap.set("n", "<leader>nd", "<CMD>Noice dismiss<CR>", { desc = "Dismiss notifications"}),
 }
