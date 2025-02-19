@@ -25,26 +25,26 @@
 ## File Structure
 ```
 ~/.config/nvim
-├── lua/
-│   ├── config/
-│   │   ├── keymaps.lua
-│   │   ├── options.lua
-│   ├── plugins.lua
-│   └── plugins/
-│       ├── colorscheme.lua
-│       ├── comment.lua
-│       ├── completion.lua
-│       ├── cutlass.lua
-│       ├── git.lua
-│       ├── lsp_config.lua
-│       ├── lualine.lua
-│       ├── oil.lua
-│       ├── noice.lua
-│       ├── none_ls.lua
-│       ├── nvim_tmux_nav.lua
-│       ├── telescope.lua
-│       └── treesitter.lua
-└── init.lua
+├── init.lua
+└── lua/
+    ├── config/
+    │   ├── keymaps.lua
+    │   └── options.lua
+    ├── plugins/
+    │   ├── colorscheme.lua
+    │   ├── comment.lua
+    │   ├── completions.lua
+    │   ├── cutlass.lua
+    │   ├── git.lua
+    │   ├── lsp_config.lua
+    │   ├── lualine.lua
+    │   ├── noice.lua
+    │   ├── none_ls.lua
+    │   ├── nvim_tmux_nav.lua
+    │   ├── oil.lua
+    │   ├── telescope.lua
+    │   └── treesitter.lua
+    └── plugins.lua
 ```
 
 ## Installation Instructions
