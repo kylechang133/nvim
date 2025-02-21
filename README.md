@@ -19,7 +19,6 @@
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) (LSP Autocompletion)
 - [cmp-nvim](https://github.com/hrsh7th/nvim-cmp) (Code Completion Engine)
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) (Code Snippet Engine)
-- [noice.nvim](https://github.com/folke/noice.nvim) (Aesthetic CL & Notifications)
 - [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) (Quick File Navigation)
 - [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) (LazyGit in Neovim)
 
@@ -42,7 +41,6 @@
     │   ├── lazygitnvim.lua
     │   ├── lsp_config.lua
     │   ├── lualine.lua
-    │   ├── noice.lua
     │   ├── none_ls.lua
     │   ├── nvim_tmux_nav.lua
     │   ├── oil.lua
