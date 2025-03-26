@@ -51,6 +51,7 @@
 ## Installation Instructions
 <ins>Requrements:</ins>
   - [ripgrep](https://github.com/BurntSushi/ripgrep) (for telescope live-grep functionality)
+  - [lazygit](https://github.com/jesseduffield/lazygit)
   - Any terminal emulator that has full color support (for colorscheme) (I recommend [Kitty](https://sw.kovidgoyal.net/kitty/) on MacOS/Linux)
   - (Optional) [node.js](https://nodejs.org/en) (for copilot plugin) (***NOTE:*** You will have to uncomment the copilot plugin yourself since it is disabled by default. It is located in the `completion.lua` file.)
     
