@@ -1,8 +1,8 @@
 -- Autocomplete
 return {
-	--  { -- copilot.nvim
-	--      "github/copilot.vim",
-	--  },
+	 -- { -- copilot.nvim
+	 --     "github/copilot.vim",
+	 -- },
 	{ -- cmp-nvim-lsp
 		"hrsh7th/cmp-nvim-lsp",
 	},
