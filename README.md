@@ -4,7 +4,7 @@
 - [lazy.nvim](https://github.com/folke/lazy.nvim) (Plugin Package Manager)
 - [catpuccin](https://github.com/catppuccin/nvim) (Color Theme)
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) (Comment Plugin)
-- [copilot.nvim](https://github.com/github/copilot.vim) (Github Copilot)
+- [copilot.lua](https://github.com/zbirenbaum/copilot.lua) (Github Copilot)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (Fuzzy Finder)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Syntax Highligting)
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) (Vim/Tmux Nagivation Control)
@@ -20,6 +20,7 @@
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) (Code Snippet Engine)
 - [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) (Quick File Navigation)
 - [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) (LazyGit in Neovim)
+- [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) (Preview markdown)
 
 
 ## File Structure
@@ -31,6 +32,7 @@
     │   ├── keymaps.lua
     │   └── options.lua
     ├── plugins
+    │   ├── ai.lua
     │   ├── colorscheme.lua
     │   ├── comment.lua
     │   ├── completions.lua
@@ -40,6 +42,7 @@
     │   ├── lazygitnvim.lua
     │   ├── lsp_config.lua
     │   ├── lualine.lua
+    │   ├── markdown-preview.lua
     │   ├── none_ls.lua
     │   ├── nvim_tmux_nav.lua
     │   ├── oil.lua
@@ -53,7 +56,7 @@
   - [ripgrep](https://github.com/BurntSushi/ripgrep) (for telescope live-grep functionality)
   - [lazygit](https://github.com/jesseduffield/lazygit) (the best/only way to use git)
   - Any terminal emulator that has full color support (for colorscheme) (I recommend [Ghostty](https://ghostty.org/) or [Kitty](https://sw.kovidgoyal.net/kitty/) on MacOS/Linux)
-  - (Optional) [node.js](https://nodejs.org/en) (for copilot plugin) (***NOTE:*** You will have to uncomment the copilot plugin yourself since it is disabled by default. It is located in the `completion.lua` file.)
+  - (Optional) [node.js](https://nodejs.org/en) (for copilot plugin)
     
 <ins>Steps:</ins>
 1. Install [Neovim](https://neovim.io) using the package manager of your choice (I use [Homebrew](https://brew.sh) on MacOS or [pacman](https://wiki.archlinux.org/title/Pacman))
