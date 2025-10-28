@@ -21,7 +21,4 @@ return {
 			require("copilot_cmp").setup()
 		end,
 	},
-	{ -- cursor-nvim-plugin
-		-- coming soon
-	},
 }
