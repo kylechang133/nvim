@@ -44,3 +44,6 @@ vim.opt.updatetime = 250
 -- Terminal Split Direction
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+
+-- Misc.
+vim.opt.winborder = "rounded"
