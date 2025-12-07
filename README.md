@@ -3,7 +3,6 @@
 ## Plugins
 - [lazy.nvim](https://github.com/folke/lazy.nvim) (Plugin Package Manager)
 - [catpuccin](https://github.com/catppuccin/nvim) (Color Theme)
-- [Comment.nvim](https://github.com/numToStr/Comment.nvim) (Comment Plugin)
 - [copilot.lua](https://github.com/zbirenbaum/copilot.lua) (Github Copilot)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (Fuzzy Finder)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Syntax Highligting)
@@ -34,7 +33,6 @@
     ├── plugins
     │   ├── ai.lua
     │   ├── colorscheme.lua
-    │   ├── comment.lua
     │   ├── completions.lua
     │   ├── cutlass.lua
     │   ├── git.lua
