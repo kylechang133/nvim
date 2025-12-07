@@ -31,7 +31,7 @@ return {
                 capabilities = capabilities,
             })
 
-            vim.lsp.config("tsserver", {
+            vim.lsp.config("ts_ls", {
                 capabilities = capabilities,
             })
 
