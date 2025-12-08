@@ -4,7 +4,7 @@
 - [lazy.nvim](https://github.com/folke/lazy.nvim) (Plugin Package Manager)
 - [catpuccin](https://github.com/catppuccin/nvim) (Color Theme)
 - [copilot.lua](https://github.com/zbirenbaum/copilot.lua) (Github Copilot)
-- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (Fuzzy Finder)
+- [fzf-lua](https://github.com/ibhagwan/fzf-lua) (Fuzzy Finder)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Syntax Highligting)
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) (Vim/Tmux Nagivation Control)
 - [cutlass.nvim](https://github.com/gbprod/cutlass.nvim) (Override default vim cut & paste behaviour)
@@ -35,6 +35,7 @@
     │   ├── colorscheme.lua
     │   ├── completions.lua
     │   ├── cutlass.lua
+    │   ├── fzf_lua.lua
     │   ├── git.lua
     │   ├── harpoon.lua
     │   ├── lazygitnvim.lua
@@ -44,14 +45,14 @@
     │   ├── none_ls.lua
     │   ├── nvim_tmux_nav.lua
     │   ├── oil.lua
-    │   ├── telescope.lua
+    │   ├── omni_preview.lua
     │   └── treesitter.lua
     └── plugins.lua
 ```
 
 ## Installation Instructions
 <ins>Requrements:</ins>
-  - [ripgrep](https://github.com/BurntSushi/ripgrep) (for telescope live-grep functionality)
+  - [ripgrep](https://github.com/BurntSushi/ripgrep) (for fzf-lua live-grep functionality)
   - [lazygit](https://github.com/jesseduffield/lazygit) (the best/only way to use git)
   - Any terminal emulator that has full color support (for colorscheme) (I recommend [Ghostty](https://ghostty.org/) or [Kitty](https://sw.kovidgoyal.net/kitty/) on MacOS/Linux)
   - (Optional) [node.js](https://nodejs.org/en) (for copilot plugin)
