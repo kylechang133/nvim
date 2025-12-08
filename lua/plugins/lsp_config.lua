@@ -51,9 +51,9 @@ return {
             -- Keymaps
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
             vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
-            vim.keymap.set("n", "<leader>gr", require("telescope.builtin").lsp_references, {})
+            vim.keymap.set("n", "<leader>gr", require("fzf-lua").lsp_references, {})
             vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
-            vim.keymap.set("n", "<leader>dl", "<CMD>Telescope diagnostics<CR>", {})
+            vim.keymap.set("n", "<leader>dl", "<CMD>FzfLua diagnostics_workspace<CR>", {})
         end,
     },
 }
