@@ -43,7 +43,7 @@ return {
 			vim.lsp.enable("pyright")
 			vim.lsp.enable("clangd")
 			vim.lsp.enable("tsserver")
-            vim.lsp.enable("rust_analyzer")
+			vim.lsp.enable("rust_analyzer")
 
 			vim.diagnostic.config({
 				virtual_text = true,
