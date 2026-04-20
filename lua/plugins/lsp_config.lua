@@ -39,11 +39,16 @@ return {
 				capabilities = capabilities,
 			})
 
+			vim.lsp.config("jdtls", {
+				capabilities = capabilities,
+			})
+
 			vim.lsp.enable("lua_ls")
 			vim.lsp.enable("pyright")
 			vim.lsp.enable("clangd")
 			vim.lsp.enable("tsserver")
 			vim.lsp.enable("rust_analyzer")
+			vim.lsp.enable("jdtls")
 
 			vim.diagnostic.config({
 				virtual_text = true,
